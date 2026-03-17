@@ -19,4 +19,4 @@ npm install
 - **scanner**
 
 ## License
-MIT
+© 2026 Officethree Technologies. All Rights Reserved.
