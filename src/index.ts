@@ -1,2 +1,2 @@
-// evalharness — Test Prompts Agents and RAG — evaluation and red teaming
+export { EvalRunner } from "./core.js";
 export const VERSION = "0.1.0";
