@@ -2,7 +2,7 @@
  * YAML config parser for test definitions.
  */
 
-import type { AssertionConfig } from "./assertions";
+import type { AssertionConfig } from "./assertions.js";
 
 export interface TestCase {
   id: string;

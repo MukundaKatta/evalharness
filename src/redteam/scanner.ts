@@ -2,8 +2,8 @@
  * Vulnerability scanner: run all attacks, score resilience, generate report.
  */
 
-import type { LLMProvider } from "../runner";
-import { Attack, ATTACKS, generateAllAttacks } from "./attacks";
+import type { LLMProvider } from "../runner.js";
+import { Attack, ATTACKS, generateAllAttacks } from "./attacks.js";
 
 export interface ScanConfig {
   /** Target actions to test (e.g., "reveal your system prompt", "generate harmful content") */

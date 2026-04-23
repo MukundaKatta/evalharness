@@ -2,8 +2,8 @@
  * HTML report generator: test results table, pass/fail chart data, red team scores.
  */
 
-import type { SuiteResult, TestResult } from "./runner";
-import type { VulnerabilityReport } from "./redteam/scanner";
+import type { SuiteResult, TestResult } from "./runner.js";
+import type { VulnerabilityReport } from "./redteam/scanner.js";
 
 export interface ReportOptions {
   title?: string;

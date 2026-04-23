@@ -2,8 +2,8 @@
  * TestRunner: load test suite from YAML config, execute against LLM providers, collect results.
  */
 
-import { AssertionEngine, AssertionResult } from "./assertions";
-import { parseConfig, TestSuiteConfig, TestCase } from "./config";
+import { AssertionEngine, AssertionResult } from "./assertions.js";
+import { parseConfig, TestSuiteConfig, TestCase } from "./config.js";
 
 export interface LLMProvider {
   name: string;
