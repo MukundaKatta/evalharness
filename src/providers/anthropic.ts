@@ -2,7 +2,7 @@
  * Anthropic provider: real SDK call pattern with messages API.
  */
 
-import type { LLMProvider, ProviderOptions, ProviderResponse } from "../runner";
+import type { LLMProvider, ProviderOptions, ProviderResponse } from "../runner.js";
 
 export interface AnthropicConfig {
   apiKey: string;

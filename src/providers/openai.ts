@@ -2,7 +2,7 @@
  * OpenAI provider: chat completions with tool use.
  */
 
-import type { LLMProvider, ProviderOptions, ProviderResponse } from "../runner";
+import type { LLMProvider, ProviderOptions, ProviderResponse } from "../runner.js";
 
 export interface OpenAIConfig {
   apiKey: string;
